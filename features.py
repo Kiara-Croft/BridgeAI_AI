@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import os
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "BridgeAI_Dataset", "Data Cleaner", "Clean.db")
+DB_PATH = os.path.join(os.path.dirname(__file__), "Clean.db")
 
 FEATURE_SCHEMAS = {
     "laptops": [
